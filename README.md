@@ -9,6 +9,7 @@ There are two Data Pre-Processing files which create and save the data for the s
 
 Output directory structure - 
 
+```
 dir_saved_data
     |
     |
@@ -36,6 +37,7 @@ dir_saved_data
                             |
                             |-- anom/
                             |-- non_anom/
+```                            
 
 The following files train the models on the specified site_id in the file 
     1) Attention Bi-LSTM model:
