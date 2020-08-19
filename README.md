@@ -40,6 +40,7 @@ dir_saved_data
 ```                            
 
 The following files train the models on the specified site_id in the file 
+    ```
     1) Attention Bi-LSTM model:
         Bi_LSTM.ipynb
 
@@ -50,9 +51,11 @@ The following files train the models on the specified site_id in the file
     3) Baseline Convolutional De-Noising Autencoders :
         Conv_Baseline_Model.ipynb
         Conv_Conditional_Baseline_Model.ipynb
+    ```
 
 
 The following files calculate the result for the specified site_id in the file 
+    ```
     1) Attention Bi-LSTM model:
         Inference_Bi_LSTM.ipynb
 
@@ -66,5 +69,6 @@ The following files calculate the result for the specified site_id in the file
     
     4) Baseline Models using the PyOD library - 
         PyOD_inference.ipynb
+    ```
 
 At the start of each notebook a cell contains all the tunable factors which can be changed to suit the experiment setting
