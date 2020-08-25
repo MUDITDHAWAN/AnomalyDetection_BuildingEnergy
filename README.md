@@ -76,7 +76,7 @@ The following files calculate the result for the specified site_id in the file
     ```
 
 For running the Bi-LSTM model completely, you need to run 3 files:
-    ```
+```
     1) DataPreProcessing_Baseline.ipynb : Which contains the following parameters which can be changed as paer the experiment setting:
         
         ## For specifying the directories 
@@ -153,7 +153,20 @@ For running the Bi-LSTM model completely, you need to run 3 files:
         
         threshold = <as per validation data>
 
-        '''
-        
+```
+A similar file structure is followed for the Baseline models.You need to run the To run DataPreProcessing_Baseline.ipynb file once which contains the same features as the 'DataPreProcessing_Baseline.ipynb' file.
+
+All the files for the baseline models contain the same parameters as their Bi_LSTM counterpart.
+
+After completing the Pre-processing step, to run  
+```
+    a) Baseline De-Noising Autencoders you need to run the
+        1) Basic_AE_Baseline_Model.ipynb and Inference_Basic_AE_Baseline.ipynb 
+        2) Basic_AE_Conditional_Baseline_Model.ipynb and Inference_Basic_AE_Conditional_Baseline.ipynb
+
+    b) Baseline Convolutional De-Noising Autencoders :
+        1) Conv_Baseline_Model.ipynb and Inference_Conv_Baseline.ipynb
+        2) Conv_Conditional_Baseline_Model.ipynb and Inference_Conv_Conditional_Baseline.ipynb
+```
         
 At the start of each notebook a cell contains all the tunable factors which can be changed to suit the experiment setting
